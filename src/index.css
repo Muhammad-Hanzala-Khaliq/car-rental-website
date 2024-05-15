@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1234px;
+    margin: 0 auto;
+}
+section{
+    padding: 2rem 5rem;
+}
+img{
+    max-width: 100%;
+}
+/* html{
+    font-size: 62.5%;
+} */

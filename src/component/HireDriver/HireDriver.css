@@ -1,0 +1,168 @@
+.Driver-section{
+    padding-top: 6rem;
+}
+.Driver-section .img{
+    position: relative;
+}
+.driver-content{
+    position: absolute;
+    top: 7%;
+    left: 5%;
+}
+.driver-heading, .driver-heading-2{
+    color: #fff;
+    text-transform: capitalize;
+    font-family: "DM Serif Display", serif;
+}
+.driver-heading-2{
+width: 90%;
+line-height: 1.5;
+}
+.driver-content p{
+    color: rgb(214, 202, 195);
+    padding-top: 4rem;
+    font-size: 1.3rem;
+}
+.input-container{
+    position: relative;
+}
+.driver-content input{
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    border: none;
+    outline: none;
+    text-indent: 10px; 
+    box-sizing: border-box;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+input::placeholder{
+    
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+}
+.input-container button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+   
+    background-color: #21408E;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    
+}
+@media(max-width:1030px){
+    .Driver-section{
+ padding: 1rem 1rem;
+    }
+}
+@media(max-width:890px){
+    .Driver-section{
+        padding: 1rem 0.5rem;
+    }
+    .driver-content input{
+        padding-top: 0.6rem;
+        padding-bottom: 0.6rem;
+    }
+    .driver-content p{
+        padding-top: 1rem;
+    }
+}
+@media(max-width:748px){
+    .driver-heading, .driver-heading-2{
+        font-size: 1.4rem;
+    }
+    .driver-content p{
+        font-size: 1.1rem;
+    }
+    .driver-content input{
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+}
+@media(max-width:655px){
+    .Driver-section{
+        padding: 1rem 0.1rem;
+    }
+    .driver-content p{
+        padding-top: 0.5rem;
+    }
+    .driver-heading, .driver-heading-2{
+        font-size: 1.2rem;
+    }
+    .driver-content p{
+        font-size: 0.9rem;
+    }
+    .driver-content input{
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+    }
+    input::placeholder{
+    
+        font-size: 0.2rem;
+        
+    }
+}
+    .input-container button {
+      
+        padding-right: 0.8rem;
+        padding-left: 0.8rem;
+       
+       
+        
+    }
+   
+@media(max-width:550px){
+   
+    .driver-content p{
+        padding-top: 0.1rem;
+    }
+    .driver-heading, .driver-heading-2{
+        font-size: 0.8rem;
+    }
+    .driver-content p{
+        font-size: 0.7rem;
+    }
+    .driver-content input{
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem;
+    }
+    .input-container button {
+      
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+       
+       
+        
+    }
+    .Driver-section img{
+        height: 30vh;
+    }
+}
+@media(max-width:430px){
+    
+    .driver-content input{
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem;
+        width: 70%;
+    }
+    .input-container button {
+        position: absolute;
+        right: 10%;
+        top: 0;
+        height: 100%;
+     
+       
+      
+        
+    }
+}
